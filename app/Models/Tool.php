@@ -9,6 +9,12 @@ class Tool extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'name',
+        'slug',
+        'icon'
+    ];
+
     public function projects()
     {
         return $this->belongsToMany(Project::class, 'project_tools', 'tool_id', 'project_id')

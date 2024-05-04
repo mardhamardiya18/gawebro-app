@@ -78,6 +78,6 @@ class RolePermissionSeeder extends Seeder
             'balance' => 0
         ]);
 
-        $user->wallet->save($wallet);
+        $user->wallet()->save($wallet);
     }
 }

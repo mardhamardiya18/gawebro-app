@@ -9,6 +9,13 @@ class ProjectApplicant extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'project_id',
+        'freelancer_id',
+        'message',
+        'status'
+    ];
+
     public function freelancer()
     {
         return $this->belongsTo(User::class, 'freelancer_id');

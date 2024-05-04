@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+
 
     <!-- Styles -->
     <style>
@@ -944,8 +946,8 @@
                 </header>
 
                 <main class="mt-6">
-                    <div class=" container bg-slate-400">
-                        <h1>Hello world</h1>
+                    <div class=" container text-center">
+                        <h1 class=" text-3xl">Hello world</h1>
                     </div>
                 </main>
 
