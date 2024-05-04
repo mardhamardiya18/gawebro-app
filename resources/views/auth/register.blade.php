@@ -31,7 +31,7 @@
 
             <select name="role" id="role_id" class="py-3 rounded-lg pl-3 w-full border border-300">
                 <option value="">Choose role</option>
-                <option value="project_freelance">Freelancer</option>
+                <option value="project_freelancer">Freelancer</option>
                 <option value="project_client">Client</option>
             </select>
 
